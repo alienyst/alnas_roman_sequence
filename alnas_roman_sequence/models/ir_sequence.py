@@ -86,10 +86,12 @@ class IrSequence(models.Model):
                 res[key] = effective_date.strftime(format)
                 res['range_' + key] = range_date.strftime(format)
                 res['current_' + key] = now.strftime(format)
+                
+                # convert to roman, ensure_integer
                 res['roman_' + key] = self.to_roman(res[key])
                 res['roman_range_' + key] = self.to_roman(res['range_' + key])
                 res['roman_current_' + key] = self.to_roman(res['current_' + key])
-                
+
             return res
 
         self.ensure_one()

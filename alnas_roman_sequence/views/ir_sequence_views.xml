@@ -3,8 +3,8 @@
 
   <data>
   
-    <record id="sequence_view_sts_roman_sequence" model="ir.ui.view">
-      <field name="name">ir.sequence.form.sts_roman_sequence</field>
+    <record id="sequence_view_alnas_roman_sequence" model="ir.ui.view">
+      <field name="name">ir.sequence.form.alnas_roman_sequence</field>
       <field name="model">ir.sequence</field>
       <field name="inherit_id" ref="base.sequence_view"/>
       <field name="arch" type="xml">
