@@ -15,7 +15,7 @@
     'website': "https://www.github.com/alienyst",
     'maintainer': ['Ali Ns'],
     'category': 'Extra Tools',
-    'version': '18.0.0.0',
+    'version': '1.0.0',
 
     'depends': ['base'],
     'license': 'AGPL-3',
