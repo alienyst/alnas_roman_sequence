@@ -24,6 +24,8 @@
         'views/ir_sequence_views.xml',
     ],
     
+    'images': ['static/description/banner.jpg'],
+    
 
 }
 
